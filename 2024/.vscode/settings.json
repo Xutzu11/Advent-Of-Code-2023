@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.jsp": "jsp",
+        "cstdlib": "cpp",
+        "vector": "cpp"
+    }
+}
