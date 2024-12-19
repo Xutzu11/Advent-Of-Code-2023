@@ -10,16 +10,6 @@ long long xa, ya, xb, yb, x, y, mincost;
 long long res;
 string s;
 
-long long gcd(long long x, long long y) {
-    long long r = 1;
-    while (r) {
-        r = x % y;
-        x = y;
-        y = r;
-    }
-    return x;
-}
-
 int main() {
     freopen("file.in", "r", stdin);
     freopen("file.out", "w", stdout);
